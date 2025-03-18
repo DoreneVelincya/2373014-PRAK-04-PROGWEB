@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rounded Corner Box</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: #650000; /* Warna merah gelap */
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
