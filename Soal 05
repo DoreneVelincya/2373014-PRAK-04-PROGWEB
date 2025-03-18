@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom List Style</title>
+    <style>
+        ul {
+            list-style-image: url('images/purple_bullet.png');
+        }
+        .nested {
+            list-style-image: url('images/yellow_bullet.png');
+        }
+        .bold-orange {
+            font-weight: bold;
+            color: orange;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul class="nested">
+                <li><span class="bold-orange">Cold</span> Tea
+                    <ul>
+                        <li class="underline">Jasmine</li>
+                        <li class="underline">Green</li>
+                    </ul>
+                </li>
+                <li><span class="bold-orange">Hot</span> Tea</li>
+            </ul>
+        </li>
+        <li>Coca Cola</li>
+    </ul>
+</body>
+</html>
